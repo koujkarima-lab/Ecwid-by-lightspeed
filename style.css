@@ -1,0 +1,22 @@
+body{
+    width: ;
+    padding: 0;
+    justify-self: center;
+    background-color: beige;
+}
+nav{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.home {
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    padding: 40PX;
+   gap: 40PX;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
