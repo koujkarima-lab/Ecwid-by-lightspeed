@@ -6,6 +6,7 @@ body{
     background-color: rgb(249, 249, 244);
     margin: auto;
     width: 90%;
+    padding: 3%;
 }
 header{
     text-align: center;
@@ -64,4 +65,53 @@ span{
     display: flex;
     text-align: center;
     justify-content:space-evenly;
+}
+.buttons{
+    border-radius: 30px;
+    height: 45px;
+    width: 200px;
+    border: solid black; 
+}
+.orange button{
+    background-color:#FFD8B1;
+}
+.orange{
+    padding: 3em;
+}
+.sell_bar{
+    padding: 2em 5em;
+}
+.social_platform{
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: space-evenly; */
+    gap: 1em;
+    /* margin: 2em; */
+    padding: 2em 5em;
+}
+.orange_img{
+    position: relative;
+    left: 883px;
+    bottom: 534px;
+}
+.author{
+    background-color: #FFD8B1;
+    border-radius: 50px;
+    border: solid black;
+    padding: 10px 45px 10px 5em;
+}
+.author1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.author_info {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.author_info img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
 }
