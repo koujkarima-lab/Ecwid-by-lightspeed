@@ -2,9 +2,13 @@ body{
     height: auto ;
     background-color: rgb(17, 17, 17);
 }
-header{
+.continer{
     background-color: rgb(249, 249, 244);
-    width: 100%;
+    margin: auto;
+    width: 90%;
+}
+header{
+    text-align: center;
 }
 nav{
     display: flex;
@@ -35,7 +39,6 @@ nav button{
     border-radius: 3px;
     height: 30px;
     width: 150px;
-    border: none;
     color: azure;
 }
 a{
@@ -45,11 +48,20 @@ a{
 .yellow{
     text-align: center;
 }
+span{
+    font-size: 150%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .yellow button{
-     background-color:rgb(3, 151, 3);
+    background-color:rgb(3, 151, 3);
     border-radius: 15px;
     height: 50px;
     width: 200px;
-    border: none;
+    border: solid black;
     color: azure;
+}
+.article1{
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
 }
