@@ -78,7 +78,7 @@ span{
     height: 45px;
     width: 200px;
     border: solid black; 
-    margin: 1em 2em;
+    margin: 2em 0em;
 }
 .orange button{
     background-color:#FFC699;
@@ -95,8 +95,8 @@ span{
 }
 .orange_img{
     position: relative;
-    left: 210px;
-    top: 78px;
+    left: 211px;
+    top: 81px;
 }
 .author{ 
     border-radius: 50px;
@@ -159,7 +159,7 @@ span{
 .green_img{
     position: relative;
     right: 129px;
-    top: 59px;
+    top: 62px
 }
 /* blue_img section */
 .blue_content button{
@@ -173,3 +173,43 @@ span{
     left: 199px;
     top: 112px
 }
+/*sell around the world stastics */
+.sell_stastics{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    border: solid black;
+    padding: 2em 0px 2em 0px;
+    gap: 10em;
+}
+.stastics{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 3em;
+
+}
+.title_statistics{
+    width: 25%;
+}
+/* Ecwid Support */
+.Support{
+    display: flex;
+    gap: 2em;
+}
+.icon{
+    display: flex;
+    flex-direction: column ;
+    border-radius: 50px;
+    border: solid black;
+    padding: 26px 2em 24px 2em;
+    width: 30%;
+    gap: 1em;
+}
+.Support img{
+    width:70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+
