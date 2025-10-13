@@ -227,7 +227,7 @@ span{
     width: 50%;
 }
 .element1 button{
-    background-color: #FBDF52;
+    background-color:  #FBDF52;
     margin: 0em;
 }
 .pay_info{
@@ -235,3 +235,59 @@ span{
     align-content: center;
 }
     /* <!-- footer_info --> */
+    
+footer{
+    background-color:black;
+    border: solid black;
+    padding: 3em;
+    margin-top: 3em;
+}
+
+.footer_list1{
+    display: flex;
+    gap: 9%;
+}
+.footer_list2{
+    display: flex;
+    justify-content: center;
+    gap: 9%;
+}
+footer a{
+    color: aliceblue;
+    display: flex;
+}
+.footer_top img{
+   width: 125px;
+   padding-top: 1em;
+}
+
+.footer_icons{
+    justify-content: right;
+    display: flex;
+    font-size: x-large;
+    margin-top: 3em;
+    width: 95%;
+
+}
+.footer_input{
+    display: flex;
+    justify-content: end;
+    gap: 15em;
+    padding: 1em;
+}
+footer input{
+    background-color: black;
+    border: solid white;
+    width: 25%;
+    height: 3em;
+}
+.footer_end{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+.footer_end_a{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
