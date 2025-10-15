@@ -283,7 +283,7 @@ footer input{
 }
 .footer_end{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2em;
 }
 .footer_end_a{
